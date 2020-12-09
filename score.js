@@ -1,0 +1,8 @@
+scoreHistory = [
+    {
+        Name: "",
+        Score: "",
+        Date: ""
+    
+    }
+]

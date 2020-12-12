@@ -1,64 +1,64 @@
 
-const myQuestions = [
-  {
-    question: " In JavaScript, we do not have datatypes like integer and float. What is the function that can be used to check if the number is an integer or not?",
-    answers: {
-      a: "Integer(value)",
-      b: "ifInteger(value)",
-      c: "npisInteger(value)m",
-      d: "ifinteger(value)"
-    },
-    correctAnswer: "c"
-  },
+const JS_Questions = [
   {
     question: " How is the function called in JavaScript?",
     answers: {
-      a: " function = Geekfunc() ",
-      b: "function Geekfunc()",
-      c: "function := Geekfunc() ",
-      d: "function : Geekfunc()"
+      0: " function = Geekfunc() ",
+      1: "function Geekfunc()",
+      2: "function := Geekfunc() ",
+      3: "function : Geekfunc()"
     },
-    correctAnswer: "b"
+    correctAnswer: "1"
   },
   {
     question: "Who developed and designed TypeScript?",
     answers: {
-      a: "Microsoft",
-      b: "Amazon",
-      c: "Oracle",
-      d: "TypeScript"
+      0: "Microsoft",
+      1: "Amazon",
+      2: "Oracle",
+      3: "TypeScript"
     },
-    correctAnswer: "a"
+    correctAnswer: "0"
   },
   {
-    question: "Which of the following is not a reserved word in JavaScript?",
+    question: "Which of the following is not 0 reserved word in JavaScript?",
     answers: {
-      a: "interface",
-      b: "Jthrows",
-      c: "program",
-      d: "short"
+      0: "interface",
+      1: "Jthrows",
+      2: "program",
+      3: "short"
     },
-    correctAnswer: "c",
+    correctAnswer: "2",
    
   },
   {
     question: "Which one of these is a JavaScript package manager?",
     answers: {
-      a: "Node.js",
-      b: "TypeScript",
-      c: "npm",
-      d: "COOL"
+      0: "Node.js",
+      1: "TypeScript",
+      2: "npm",
+      3: "COOL"
     },
-    correctAnswer: "c"
+    correctAnswer: "2"
   },
   {
     question: "Which tool can you use to ensure code quality?",
     answers: {
-      a: "Angular",
-      b: "jQuery",
-      c: "RequireJS",
-      d: "ESLint"
+      0: "Angular",
+      1: "jQuery",
+      2: "RequireJS",
+      3: "ESLint"
     },
-    correctAnswer: "d"
+    correctAnswer: "4"
+  },
+  {
+    question: " In JavaScript, we do not have datatypes like integer and float. What is the function that can be used to check if the number is an integer or not?",
+    answers: {
+      0: "Integer(value)",
+      1: "ifInteger(value)",
+      2: "npisInteger(value)m",
+      3: "ifinteger(value)"
+    },
+    correctAnswer: "2"
   }
 ];
